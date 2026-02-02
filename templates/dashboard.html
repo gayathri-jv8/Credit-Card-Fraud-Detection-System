@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | Credit Card Fraud Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="fraud-bg-static">
+    <div class="card-outline normal"></div>
+    <div class="card-outline warning"></div>
+    <div class="card-outline danger"></div>
+</div>
+
+<!-- Top Navbar -->
+<nav class="navbar">
+    <div class="logo">💳 Fraud Guard</div>
+    <div class="user-info">
+        Welcome, <strong>{{ session['customer'] }}</strong>
+        <a href="/logout" class="logout-btn">Logout</a>
+    </div>
+</nav>
+
+<!-- Dashboard -->
+<div class="dashboard-container">
+
+    <!-- Page Header -->
+    <div class="dashboard-header">
+        <h2>Transaction Risk Analysis</h2>
+        <p>Check whether a transaction is safe or fraudulent in real time</p>
+    </div>
+
+    <!-- Transaction Card -->
+    <div class="card">
+        <h3>💼 New Transaction</h3>
+
+        <form method="POST" class="transaction-form">
+
+            <div class="form-row">
+                <div class="input-group">
+                    <input type="number" step="0.01" name="amount" required>
+                    <label>Transaction Amount (₹)</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" name="location" placeholder="e.g., Mumbai" required>
+                    <label>Transaction Location</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input-group">
+                    <input type="date" name="txn_date" required>
+                    <label>Date</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="time" name="txn_time" required>
+                    <label>Time</label>
+                </div>
+            </div>
+
+            <div class="input-group full">
+                <select name="purpose" required>
+                    <option value="">Select purpose</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="food">Food & Dining</option>
+                    <option value="travel">Travel</option>
+                    <option value="online">Online Purchase</option>
+                    <option value="subscription">Subscription</option>
+                    <option value="other">Other</option>
+                    <label>Transaction Purpose</label>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-primary">
+                🔍 Analyze Transaction
+            </button>
+        </form>
+    </div>
+
+    <!-- Result Card -->
+    {% if result %}
+    <div class="card result-card {{ 'fraud' if 'fraud' in result|lower else 'safe' }}">
+        <h3>🚦 Transaction Result</h3>
+
+        <div class="status">
+            {{ result }}
+        </div>
+
+        <div class="details">
+            <p><strong>💰 Amount:</strong> ₹{{ request.form.amount }}</p>
+            <p><strong>📍 Location:</strong> {{ request.form.location }}</p>
+            <p><strong>🗓 Date & Time:</strong> {{ txn_datetime }}</p>
+            <p><strong>🎯 Purpose:</strong> {{ request.form.purpose }}</p>
+        </div>
+
+        {% if 'Fraud' in result %}
+        <div class="alert-box">
+            🚨 High-risk transaction detected. Alert has been triggered.
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

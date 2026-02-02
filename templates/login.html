@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Login | Credit Card Fraud Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<div class="fraud-bg-static">
+    <div class="card-outline normal"></div>
+    <div class="card-outline warning"></div>
+    <div class="card-outline danger"></div>
+</div>
+
+    <!-- App Title -->
+    <header class="app-header">
+        <h1>💳 Credit Card Fraud Detection</h1>
+        <p>AI-powered secure transaction monitoring</p>
+    </header>
+
+    <!-- Login Card -->
+    <div class="auth-wrapper">
+        <div class="auth-card">
+            <h2>Welcome</h2>
+            <p class="subtitle">Login to continue</p>
+
+            <!-- Flash messages -->
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                <div class="alert">{{ messages[0] }}</div>
+              {% endif %}
+            {% endwith %}
+
+            <form method="POST" action="/login" onsubmit="showLoader()">
+
+                <!-- Customer ID -->
+                <div class="input-group">
+                    <input type="text" name="customer_id" id="customer_id" required>
+                    <label for="customer_id">Customer ID</label>
+                </div>
+
+                <!-- Password -->
+                <div class="input-group password-group">
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Password</label>
+                    <span class="toggle-password" onclick="togglePassword()">👁</span>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="btn-primary">
+                    <span id="btnText">Login</span>
+                    <span id="loader" class="loader"></span>
+                </button>
+            </form>
+
+            <!-- Register -->
+            <p class="switch">
+                New user?
+                <a href="/register">Create an account</a>
+            </p>
+
+            <!-- Security Info -->
+            <div class="security-note">
+                🔒 Your data is protected with end-to-end encryption
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+        function togglePassword() {
+            const pwd = document.getElementById("password");
+            pwd.type = pwd.type === "password" ? "text" : "password";
+        }
+
+        function showLoader() {
+            document.getElementById("btnText").style.display = "none";
+            document.getElementById("loader").style.display = "inline-block";
+        }
+    </script>
+
+</body>
+</html>
