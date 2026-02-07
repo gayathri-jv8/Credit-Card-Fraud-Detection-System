@@ -1,9 +1,11 @@
 from flask import Flask, jsonify, render_template, request, redirect, url_for, session
 import sqlite3
 import pickle
+import random
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
-from email_utils import send_fraud_email, get_user_email
+from email_utils import send_fraud_email, get_user_email, send_otp_email
+
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
@@ -27,20 +29,64 @@ def register():
         phone = request.form["phone"]
         password = generate_password_hash(request.form["password"])
 
+        otp = str(random.randint(100000, 999999))
+        otp_time = datetime.now().isoformat()
+
         try:
             conn = get_db()
             cursor = conn.cursor()
             cursor.execute(
-                "INSERT INTO customers (customer_id, email, phone, password) VALUES (?,?,?,?)",
-                (customer_id, email, phone, password)
+                """INSERT INTO customers 
+                (customer_id, email, phone, password, otp, is_verified)
+                VALUES (?,?,?,?,?,0)""",
+                (customer_id, email, phone, password, otp)
             )
             conn.commit()
             conn.close()
-            return redirect(url_for("login"))
+
+            send_otp_email(email, otp)
+
+            session["verify_email"] = email
+            return redirect(url_for("verify_otp"))
+
         except:
-            return "⚠️ Customer already exists"
+            return "⚠️ Email or Customer ID already exists"
 
     return render_template("register.html")
+
+@app.route("/verify-otp", methods=["GET", "POST"])
+def verify_otp():
+    if "verify_email" not in session:
+        return redirect(url_for("register"))
+
+    if request.method == "POST":
+        user_otp = request.form["otp"]
+        email = session["verify_email"]
+
+        conn = get_db()
+        cursor = conn.cursor()
+        cursor.execute(
+            "SELECT otp FROM customers WHERE email=?",
+            (email,)
+        )
+        record = cursor.fetchone()
+
+        if record and record[0] == user_otp:
+            cursor.execute(
+                "UPDATE customers SET is_verified=1, otp=NULL WHERE email=?",
+                (email,)
+            )
+            conn.commit()
+            conn.close()
+
+            session.pop("verify_email")
+            return redirect(url_for("login"))
+
+        conn.close()
+        return "❌ Invalid OTP"
+
+    return render_template("verify_otp.html")
+
 
 # LOGIN 
 @app.route("/", methods=["GET", "POST"])
@@ -52,7 +98,10 @@ def login():
 
         conn = get_db()
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM customers WHERE customer_id=?", (customer_id,))
+        cursor.execute(
+    "SELECT * FROM customers WHERE customer_id=? AND is_verified=1",
+    (customer_id,)
+)
         customer = cursor.fetchone()
         conn.close()
 
