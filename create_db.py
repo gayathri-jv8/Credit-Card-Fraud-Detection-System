@@ -9,11 +9,13 @@ CREATE TABLE IF NOT EXISTS customers (
     customer_id TEXT UNIQUE,
     email TEXT UNIQUE,
     phone TEXT UNIQUE,
-    password TEXT
+    password TEXT,
+    otp TEXT,
+    is_verified INTEGER DEFAULT 0
 );
 """)
 
 conn.commit()
 conn.close()
 
-print("✅ Database Created / Updated")
+print("✅ Database Created ")
