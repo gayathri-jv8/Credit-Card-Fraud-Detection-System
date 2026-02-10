@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account | Credit Card Fraud Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- Background Cards -->
+<div class="fraud-bg-static">
+    <div class="card-outline normal"></div>
+    <div class="card-outline warning"></div>
+    <div class="card-outline danger"></div>
+</div>
+
+<!-- Header -->
+<header class="app-header">
+    <h1>💳 Credit Card Fraud Detection</h1>
+    <p>Secure onboarding with email verification</p>
+</header>
+
+<!-- Register Card -->
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <h2>Create Account</h2>
+        <p class="subtitle">
+            Register and verify your email to continue
+        </p>
+
+        <form method="POST">
+
+            <!-- Customer ID -->
+            <div class="input-group">
+                <input type="text" name="customer_id" required>
+                <label>Customer ID</label>
+            </div>
+
+            <!-- Email -->
+            <div class="input-group">
+                <input type="email" name="email" required>
+                <label>Email Address</label>
+            </div>
+
+            <!-- Phone -->
+            <div class="input-group">
+                <input type="tel"
+                       name="phone"
+                       pattern="[0-9]{10}"
+                       required>
+                <label>Phone Number</label>
+            </div>
+
+            <!-- Password -->
+            <div class="input-group password-group">
+                <input type="password" name="password" id="password" required>
+                <label>Password</label>
+                <span class="toggle-password" onclick="togglePassword()">👁</span>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn-primary">
+                Register & Verify Email
+            </button>
+        </form>
+
+        <!-- Info -->
+        <p class="verify-note">
+            📧 An OTP will be sent to your email for verification
+        </p>
+
+        <!-- Login -->
+        <p class="switch">
+            Already verified?
+            <a href="/login">Login</a>
+        </p>
+
+        <!-- Security -->
+        <div class="security-note">
+            🔒 Your information is encrypted and secure
+        </div>
+    </div>
+</div>
+
+<!-- JS -->
+<script>
+    function togglePassword() {
+        const pwd = document.getElementById("password");
+        pwd.type = pwd.type === "password" ? "text" : "password";
+    }
+</script>
+
+</body>
+</html>
