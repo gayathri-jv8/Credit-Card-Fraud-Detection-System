@@ -4,35 +4,37 @@
     <meta charset="UTF-8">
     <title>Dashboard | Credit Card Fraud Detection</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
+
+<!-- Background -->
 <div class="fraud-bg-static">
     <div class="card-outline normal"></div>
     <div class="card-outline warning"></div>
     <div class="card-outline danger"></div>
 </div>
 
-<!-- Top Navbar -->
+<!-- Navbar -->
 <nav class="navbar">
     <div class="logo">💳 Fraud Guard</div>
     <div class="user-info">
         Welcome, <strong>{{ session['customer'] }}</strong>
-        <a href="/logout" class="logout-btn">Logout</a>
+        <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
     </div>
 </nav>
 
 <!-- Dashboard -->
 <div class="dashboard-container">
 
-    <!-- Page Header -->
+    <!-- Header -->
     <div class="dashboard-header">
         <h2>Transaction Risk Analysis</h2>
         <p>Check whether a transaction is safe or fraudulent in real time</p>
     </div>
 
-    <!-- Transaction Card -->
+    <!-- Transaction Form -->
     <div class="card">
         <h3>💼 New Transaction</h3>
 
@@ -44,9 +46,19 @@
                     <label>Transaction Amount (₹)</label>
                 </div>
 
-                <div class="input-group">
-                    <input type="text" name="location" placeholder="e.g., Mumbai" required>
+                <div class="input-group full">
+                    <select name="location" required>
+                        <option value="" disabled selected>Select location</option>
+                        <option value="Andhra">Andhra</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Karnataka">Karanataka</option>
+                        <option value="Dubai">Dubai</option>
                     <label>Transaction Location</label>
+                    </select>
                 </div>
             </div>
 
@@ -64,14 +76,15 @@
 
             <div class="input-group full">
                 <select name="purpose" required>
-                    <option value="">Select purpose</option>
-                    <option value="shopping">Shopping</option>
-                    <option value="food">Food & Dining</option>
-                    <option value="travel">Travel</option>
-                    <option value="online">Online Purchase</option>
-                    <option value="subscription">Subscription</option>
-                    <option value="other">Other</option>
-                    <label>Transaction Purpose</label>
+                    <option value="" disabled selected>Select purpose</option>
+                    <option value="Groceries">Groceries</option>
+                    <option value="Fuel">Fuel</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Restaurant">Restaurant</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Bills">Bills</option>
+                <label>Transaction Purpose</label>
                 </select>
             </div>
 
@@ -81,7 +94,7 @@
         </form>
     </div>
 
-    <!-- Result Card -->
+    <!-- Result -->
     {% if result %}
     <div class="card result-card {{ 'fraud' if 'fraud' in result|lower else 'safe' }}">
         <h3>🚦 Transaction Result</h3>
@@ -97,9 +110,9 @@
             <p><strong>🎯 Purpose:</strong> {{ request.form.purpose }}</p>
         </div>
 
-        {% if 'Fraud' in result %}
+        {% if 'fraud' in result|lower %}
         <div class="alert-box">
-            🚨 High-risk transaction detected. Alert has been triggered.
+            🚨 High-risk transaction detected. Alert email has been sent.
         </div>
         {% endif %}
     </div>
