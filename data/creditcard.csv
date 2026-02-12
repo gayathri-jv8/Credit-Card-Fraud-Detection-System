@@ -1,0 +1,1002 @@
+amount,location,date,time,purpose,prediction
+1200,Hyderabad,2026-01-05,10:22,Groceries,0
+4800,Bangalore,2026-01-06,18:41,Shopping,0
+9000,Delhi,2026-01-07,21:10,Electronics,1
+3500,Andhra,2026-01-08,09:15,Fuel,0
+16000,Mumbai,2026-01-09,23:05,Travel,1
+5308,Hyderabad,2026-01-01,18:59,Fuel,0
+17979,Delhi,2026-01-01,23:42,Travel,1
+4010,Bangalore,2026-01-01,21:36,Pharmacy,0
+8594,Goa,2026-01-01,03:19,Travel,1
+2719,Hyderabad,2026-01-01,13:09,Pharmacy,0
+13288,Mumbai,2026-01-01,03:20,Foreign Transaction,1
+2986,Hyderabad,2026-01-01,21:12,Groceries,0
+18295,Delhi,2026-01-01,02:54,Resort Booking,1
+5226,Hyderabad,2026-01-01,15:52,Fuel,0
+10597,Pune,2026-01-01,03:03,Resort Booking,1
+977,Hyderabad,2026-01-01,18:02,Clothing,0
+14513,Pune,2026-01-01,00:09,Electronics,1
+2919,Andhra,2026-01-01,21:57,Restaurant,0
+27219,Pune,2026-01-01,22:08,Travel,1
+4487,Bangalore,2026-01-01,15:23,Groceries,0
+26625,Chennai,2026-01-01,01:36,International Purchase,1
+5999,Bangalore,2026-01-01,09:33,Clothing,0
+7770,Jaipur,2026-01-01,23:11,Electronics,1
+1692,Andhra,2026-01-01,17:46,Milk & Groceries,0
+19503,Pune,2026-01-01,04:12,Resort Booking,1
+1729,Hyderabad,2026-01-01,09:21,Utilities,0
+27344,Ahmedabad,2026-01-02,00:27,Electronics,1
+4774,Bangalore,2026-01-02,16:29,Milk & Groceries,0
+7072,Jaipur,2026-01-02,04:52,Travel,1
+4729,Hyderabad,2026-01-02,12:40,Groceries,0
+12456,Chennai,2026-01-02,03:28,International Purchase,1
+5075,Andhra,2026-01-02,15:44,Restaurant,0
+7134,Kolkata,2026-01-02,22:55,Electronics,1
+5151,Bangalore,2026-01-02,19:45,Pharmacy,0
+21238,Chennai,2026-01-02,03:34,Online Shopping,1
+5859,Bangalore,2026-01-02,07:30,Restaurant,0
+15862,Pune,2026-01-02,02:28,Resort Booking,1
+1192,Hyderabad,2026-01-02,09:56,Fuel,0
+10933,Delhi,2026-01-02,01:14,International Purchase,1
+1350,Hyderabad,2026-01-02,18:28,Fuel,0
+28084,Kolkata,2026-01-02,01:33,Luxury Goods,1
+4698,Andhra,2026-01-02,17:24,Tea,0
+11194,Pune,2026-01-02,02:31,International Purchase,1
+738,Bangalore,2026-01-02,07:57,Tea,0
+20231,Ahmedabad,2026-01-02,04:45,Travel,1
+665,Hyderabad,2026-01-02,18:02,Fuel,0
+20027,Goa,2026-01-02,00:23,Online Shopping,1
+1987,Hyderabad,2026-01-02,11:26,Fuel,0
+18962,Delhi,2026-01-02,04:59,Foreign Transaction,1
+3901,Hyderabad,2026-01-02,10:28,Pharmacy,0
+14951,Ahmedabad,2026-01-02,03:28,Electronics,1
+4555,Bangalore,2026-01-03,14:17,Pharmacy,0
+10700,Kolkata,2026-01-03,00:22,Electronics,1
+2178,Hyderabad,2026-01-03,20:13,Groceries,0
+16524,Goa,2026-01-03,03:33,Foreign Transaction,1
+513,Bangalore,2026-01-03,12:01,Restaurant,0
+22357,Pune,2026-01-03,01:55,Electronics,1
+3526,Hyderabad,2026-01-03,09:19,Restaurant,0
+15168,Delhi,2026-01-03,22:03,Resort Booking,1
+5984,Hyderabad,2026-01-03,20:16,Restaurant,0
+27160,Goa,2026-01-03,02:12,Electronics,1
+5711,Andhra,2026-01-03,12:02,Milk & Groceries,0
+22384,Jaipur,2026-01-03,23:20,International Purchase,1
+329,Hyderabad,2026-01-03,19:03,Fuel,0
+17798,Pune,2026-01-03,04:39,Luxury Goods,1
+5964,Andhra,2026-01-03,21:25,Milk & Groceries,0
+19343,Chennai,2026-01-03,02:59,Foreign Transaction,1
+4317,Andhra,2026-01-03,13:11,Pharmacy,0
+15078,Goa,2026-01-03,02:43,Resort Booking,1
+364,Hyderabad,2026-01-03,08:18,Fuel,0
+18911,Delhi,2026-01-03,04:05,Luxury Goods,1
+1002,Bangalore,2026-01-03,20:13,Tea,0
+8510,Chennai,2026-01-03,03:36,Travel,1
+1941,Hyderabad,2026-01-03,08:09,Utilities,0
+16051,Chennai,2026-01-03,01:15,Resort Booking,1
+1749,Andhra,2026-01-03,11:25,Groceries,0
+29266,Ahmedabad,2026-01-04,00:54,Resort Booking,1
+1193,Bangalore,2026-01-04,18:11,Tea,0
+29025,Mumbai,2026-01-04,04:41,International Purchase,1
+1742,Andhra,2026-01-04,13:49,Clothing,0
+26148,Mumbai,2026-01-04,02:33,International Purchase,1
+4190,Andhra,2026-01-04,18:30,Pharmacy,0
+18510,Jaipur,2026-01-04,23:19,Electronics,1
+4515,Bangalore,2026-01-04,17:57,Bus Ticket,0
+15959,Jaipur,2026-01-04,22:58,Luxury Goods,1
+5790,Andhra,2026-01-04,21:56,Groceries,0
+13794,Pune,2026-01-04,03:04,International Purchase,1
+3911,Bangalore,2026-01-04,14:48,Utilities,0
+21844,Chennai,2026-01-04,22:27,Electronics,1
+2540,Hyderabad,2026-01-04,11:33,Restaurant,0
+13424,Kolkata,2026-01-04,23:18,Travel,1
+4282,Andhra,2026-01-04,11:59,Pharmacy,0
+14095,Delhi,2026-01-04,22:14,Electronics,1
+4819,Bangalore,2026-01-04,08:32,Pharmacy,0
+17886,Mumbai,2026-01-04,03:54,Resort Booking,1
+2581,Hyderabad,2026-01-04,19:40,Clothing,0
+8394,Mumbai,2026-01-04,00:38,Online Shopping,1
+4493,Andhra,2026-01-04,13:49,Pharmacy,0
+20732,Ahmedabad,2026-01-04,03:57,Travel,1
+2270,Hyderabad,2026-01-04,12:55,Bus Ticket,0
+15485,Mumbai,2026-01-04,01:52,Foreign Transaction,1
+2233,Hyderabad,2026-01-05,15:19,Utilities,0
+23540,Mumbai,2026-01-05,04:33,International Purchase,1
+2929,Hyderabad,2026-01-05,13:36,Bus Ticket,0
+27192,Chennai,2026-01-05,00:13,Foreign Transaction,1
+3736,Andhra,2026-01-05,13:34,Pharmacy,0
+29824,Delhi,2026-01-05,03:16,Luxury Goods,1
+940,Andhra,2026-01-05,20:50,Pharmacy,0
+25818,Goa,2026-01-05,02:40,Online Shopping,1
+3076,Bangalore,2026-01-05,17:30,Milk & Groceries,0
+28893,Ahmedabad,2026-01-05,22:16,Online Shopping,1
+4725,Andhra,2026-01-05,21:38,Pharmacy,0
+21156,Jaipur,2026-01-05,02:40,Luxury Goods,1
+1200,Hyderabad,2026-01-05,14:50,Groceries,0
+27873,Ahmedabad,2026-01-05,01:18,Foreign Transaction,1
+1464,Bangalore,2026-01-05,13:36,Groceries,0
+18709,Ahmedabad,2026-01-05,03:53,Travel,1
+4664,Andhra,2026-01-05,10:20,Groceries,0
+25515,Goa,2026-01-05,23:06,Travel,1
+606,Andhra,2026-01-05,11:37,Restaurant,0
+27003,Delhi,2026-01-05,02:47,Electronics,1
+732,Bangalore,2026-01-05,20:50,Groceries,0
+18906,Chennai,2026-01-05,00:27,Electronics,1
+5454,Hyderabad,2026-01-05,07:44,Tea,0
+26996,Kolkata,2026-01-05,02:32,Foreign Transaction,1
+2582,Andhra,2026-01-05,09:29,Pharmacy,0
+27036,Goa,2026-01-06,03:04,Luxury Goods,1
+1036,Andhra,2026-01-06,18:25,Fuel,0
+10272,Ahmedabad,2026-01-06,00:28,Online Shopping,1
+5647,Bangalore,2026-01-06,12:48,Milk & Groceries,0
+7833,Mumbai,2026-01-06,00:31,Online Shopping,1
+2903,Hyderabad,2026-01-06,12:28,Milk & Groceries,0
+28521,Kolkata,2026-01-06,22:45,Resort Booking,1
+1663,Hyderabad,2026-01-06,19:27,Tea,0
+13975,Ahmedabad,2026-01-06,02:08,Travel,1
+2769,Hyderabad,2026-01-06,07:01,Pharmacy,0
+29510,Delhi,2026-01-06,02:50,Online Shopping,1
+1112,Andhra,2026-01-06,18:59,Bus Ticket,0
+24712,Mumbai,2026-01-06,04:59,Travel,1
+5443,Andhra,2026-01-06,18:21,Restaurant,0
+19085,Chennai,2026-01-06,01:15,Travel,1
+5788,Hyderabad,2026-01-06,10:16,Utilities,0
+8727,Kolkata,2026-01-06,03:14,Luxury Goods,1
+5736,Bangalore,2026-01-06,07:05,Groceries,0
+16745,Delhi,2026-01-06,03:24,International Purchase,1
+4337,Hyderabad,2026-01-06,21:10,Pharmacy,0
+23006,Mumbai,2026-01-06,01:15,Online Shopping,1
+1529,Hyderabad,2026-01-06,16:57,Groceries,0
+28113,Goa,2026-01-06,02:38,Electronics,1
+787,Hyderabad,2026-01-06,21:06,Fuel,0
+11150,Ahmedabad,2026-01-06,23:36,Foreign Transaction,1
+1009,Bangalore,2026-01-07,19:43,Clothing,0
+28016,Delhi,2026-01-07,04:43,Online Shopping,1
+3592,Hyderabad,2026-01-07,07:16,Tea,0
+10679,Jaipur,2026-01-07,04:19,International Purchase,1
+4926,Andhra,2026-01-07,15:39,Milk & Groceries,0
+23402,Kolkata,2026-01-07,03:12,Resort Booking,1
+5385,Andhra,2026-01-07,10:28,Milk & Groceries,0
+26495,Ahmedabad,2026-01-07,02:12,Resort Booking,1
+3088,Andhra,2026-01-07,12:09,Clothing,0
+12474,Pune,2026-01-07,04:32,Resort Booking,1
+2215,Hyderabad,2026-01-07,21:21,Bus Ticket,0
+13860,Delhi,2026-01-07,23:53,Online Shopping,1
+4162,Bangalore,2026-01-07,19:54,Bus Ticket,0
+16605,Pune,2026-01-07,04:13,Foreign Transaction,1
+4608,Bangalore,2026-01-07,08:19,Utilities,0
+23830,Delhi,2026-01-07,23:10,Resort Booking,1
+3423,Andhra,2026-01-07,18:56,Pharmacy,0
+20456,Ahmedabad,2026-01-07,01:56,Foreign Transaction,1
+5816,Andhra,2026-01-07,12:58,Tea,0
+18489,Goa,2026-01-07,22:23,Online Shopping,1
+4903,Andhra,2026-01-07,19:52,Utilities,0
+24042,Mumbai,2026-01-07,02:01,Electronics,1
+678,Andhra,2026-01-07,16:33,Clothing,0
+14737,Delhi,2026-01-07,04:01,International Purchase,1
+3373,Hyderabad,2026-01-07,15:08,Clothing,0
+17788,Chennai,2026-01-08,01:43,Luxury Goods,1
+4388,Hyderabad,2026-01-08,15:34,Fuel,0
+25709,Jaipur,2026-01-08,03:32,International Purchase,1
+4114,Hyderabad,2026-01-08,21:08,Bus Ticket,0
+27767,Kolkata,2026-01-08,03:05,Resort Booking,1
+5780,Andhra,2026-01-08,21:38,Restaurant,0
+24234,Mumbai,2026-01-08,23:11,International Purchase,1
+3997,Bangalore,2026-01-08,19:25,Fuel,0
+17528,Jaipur,2026-01-08,04:03,Travel,1
+2755,Bangalore,2026-01-08,07:59,Tea,0
+16364,Ahmedabad,2026-01-08,04:48,International Purchase,1
+1155,Bangalore,2026-01-08,07:59,Milk & Groceries,0
+7312,Delhi,2026-01-08,23:45,Resort Booking,1
+382,Bangalore,2026-01-08,18:53,Restaurant,0
+8475,Kolkata,2026-01-08,02:45,Travel,1
+4224,Andhra,2026-01-08,21:04,Bus Ticket,0
+26575,Chennai,2026-01-08,23:18,Online Shopping,1
+4397,Hyderabad,2026-01-08,08:33,Pharmacy,0
+12581,Pune,2026-01-08,02:16,Luxury Goods,1
+4330,Bangalore,2026-01-08,18:42,Groceries,0
+26681,Mumbai,2026-01-08,01:52,Electronics,1
+1640,Hyderabad,2026-01-08,19:51,Groceries,0
+11400,Pune,2026-01-08,22:14,Electronics,1
+1653,Andhra,2026-01-08,19:25,Groceries,0
+13578,Mumbai,2026-01-08,04:49,Electronics,1
+2629,Hyderabad,2026-01-09,09:26,Fuel,0
+11068,Chennai,2026-01-09,23:37,Electronics,1
+5626,Hyderabad,2026-01-09,21:11,Restaurant,0
+9219,Mumbai,2026-01-09,03:19,Online Shopping,1
+1330,Andhra,2026-01-09,15:46,Utilities,0
+14915,Jaipur,2026-01-09,04:29,Foreign Transaction,1
+5163,Bangalore,2026-01-09,15:51,Fuel,0
+25225,Ahmedabad,2026-01-09,00:43,Luxury Goods,1
+1685,Hyderabad,2026-01-09,13:23,Clothing,0
+17378,Delhi,2026-01-09,04:30,Resort Booking,1
+712,Hyderabad,2026-01-09,15:37,Restaurant,0
+7555,Delhi,2026-01-09,01:08,Online Shopping,1
+4359,Andhra,2026-01-09,20:02,Restaurant,0
+24153,Pune,2026-01-09,01:58,Electronics,1
+4584,Bangalore,2026-01-09,13:51,Groceries,0
+11860,Goa,2026-01-09,22:05,Luxury Goods,1
+3386,Andhra,2026-01-09,10:56,Fuel,0
+22936,Jaipur,2026-01-09,02:08,Luxury Goods,1
+4763,Andhra,2026-01-09,20:01,Restaurant,0
+21329,Jaipur,2026-01-09,00:36,Foreign Transaction,1
+2683,Hyderabad,2026-01-09,07:59,Pharmacy,0
+22953,Pune,2026-01-09,02:43,Travel,1
+4212,Bangalore,2026-01-09,20:32,Restaurant,0
+12764,Mumbai,2026-01-09,01:08,Resort Booking,1
+2514,Andhra,2026-01-09,07:11,Milk & Groceries,0
+29953,Ahmedabad,2026-01-10,23:42,Luxury Goods,1
+1754,Hyderabad,2026-01-10,19:04,Utilities,0
+8505,Kolkata,2026-01-10,04:15,Luxury Goods,1
+3041,Bangalore,2026-01-10,17:52,Bus Ticket,0
+24104,Kolkata,2026-01-10,01:31,Travel,1
+3482,Hyderabad,2026-01-10,11:58,Clothing,0
+8308,Chennai,2026-01-10,02:26,Online Shopping,1
+2713,Bangalore,2026-01-10,12:47,Milk & Groceries,0
+8027,Kolkata,2026-01-10,01:15,International Purchase,1
+2751,Andhra,2026-01-10,08:03,Pharmacy,0
+14067,Pune,2026-01-10,03:17,Electronics,1
+1018,Hyderabad,2026-01-10,13:22,Tea,0
+14520,Ahmedabad,2026-01-10,22:43,Online Shopping,1
+1918,Andhra,2026-01-10,08:12,Pharmacy,0
+13587,Chennai,2026-01-10,02:19,Foreign Transaction,1
+1728,Hyderabad,2026-01-10,07:47,Milk & Groceries,0
+21879,Chennai,2026-01-10,22:58,Foreign Transaction,1
+1798,Andhra,2026-01-10,19:08,Bus Ticket,0
+29177,Chennai,2026-01-10,23:27,Online Shopping,1
+1825,Hyderabad,2026-01-10,18:56,Utilities,0
+19755,Chennai,2026-01-10,00:26,International Purchase,1
+5986,Bangalore,2026-01-10,13:59,Restaurant,0
+21460,Pune,2026-01-10,01:06,Foreign Transaction,1
+991,Hyderabad,2026-01-10,15:31,Pharmacy,0
+27996,Kolkata,2026-01-10,22:53,Travel,1
+3855,Andhra,2026-01-11,21:06,Tea,0
+13843,Kolkata,2026-01-11,22:14,Online Shopping,1
+3901,Bangalore,2026-01-11,17:54,Fuel,0
+14281,Mumbai,2026-01-11,04:03,Electronics,1
+4596,Hyderabad,2026-01-11,18:53,Milk & Groceries,0
+28049,Goa,2026-01-11,00:41,International Purchase,1
+1213,Andhra,2026-01-11,08:21,Bus Ticket,0
+22128,Kolkata,2026-01-11,01:54,Electronics,1
+4365,Bangalore,2026-01-11,14:01,Bus Ticket,0
+21068,Kolkata,2026-01-11,22:14,Online Shopping,1
+3744,Andhra,2026-01-11,08:45,Groceries,0
+17057,Goa,2026-01-11,01:14,Travel,1
+5050,Andhra,2026-01-11,11:44,Clothing,0
+28327,Jaipur,2026-01-11,03:14,Foreign Transaction,1
+3125,Andhra,2026-01-11,17:07,Fuel,0
+29479,Chennai,2026-01-11,03:35,Travel,1
+2147,Andhra,2026-01-11,11:50,Tea,0
+8242,Mumbai,2026-01-11,23:20,Online Shopping,1
+1068,Hyderabad,2026-01-11,15:06,Tea,0
+14551,Goa,2026-01-11,03:17,International Purchase,1
+2117,Bangalore,2026-01-11,17:52,Fuel,0
+23905,Kolkata,2026-01-11,04:43,International Purchase,1
+5102,Hyderabad,2026-01-11,12:32,Bus Ticket,0
+26939,Pune,2026-01-11,02:04,Foreign Transaction,1
+2858,Bangalore,2026-01-11,17:38,Utilities,0
+10759,Delhi,2026-01-12,04:42,Resort Booking,1
+2318,Hyderabad,2026-01-12,15:18,Groceries,0
+22706,Ahmedabad,2026-01-12,00:22,Foreign Transaction,1
+2720,Andhra,2026-01-12,10:19,Clothing,0
+27297,Kolkata,2026-01-12,03:24,International Purchase,1
+2581,Andhra,2026-01-12,09:20,Clothing,0
+10302,Jaipur,2026-01-12,00:31,Travel,1
+2088,Bangalore,2026-01-12,14:38,Bus Ticket,0
+14165,Chennai,2026-01-12,01:04,Travel,1
+999,Bangalore,2026-01-12,07:19,Bus Ticket,0
+10071,Pune,2026-01-12,22:38,Travel,1
+5765,Andhra,2026-01-12,18:43,Groceries,0
+16614,Mumbai,2026-01-12,22:04,International Purchase,1
+4797,Hyderabad,2026-01-12,10:26,Restaurant,0
+25057,Pune,2026-01-12,00:35,Foreign Transaction,1
+1109,Andhra,2026-01-12,15:24,Fuel,0
+15272,Ahmedabad,2026-01-12,01:00,Electronics,1
+1864,Andhra,2026-01-12,21:18,Tea,0
+18801,Delhi,2026-01-12,04:20,Luxury Goods,1
+5357,Bangalore,2026-01-12,18:46,Bus Ticket,0
+10080,Mumbai,2026-01-12,00:08,Online Shopping,1
+645,Andhra,2026-01-12,09:19,Pharmacy,0
+13287,Chennai,2026-01-12,04:56,International Purchase,1
+2867,Andhra,2026-01-12,11:03,Tea,0
+21624,Goa,2026-01-12,01:57,International Purchase,1
+4112,Hyderabad,2026-01-13,13:59,Tea,0
+8069,Mumbai,2026-01-13,04:46,Luxury Goods,1
+1239,Hyderabad,2026-01-13,16:23,Bus Ticket,0
+10029,Pune,2026-01-13,02:26,Travel,1
+1048,Andhra,2026-01-13,17:26,Restaurant,0
+17187,Kolkata,2026-01-13,02:42,Electronics,1
+4399,Andhra,2026-01-13,15:42,Utilities,0
+28177,Kolkata,2026-01-13,00:57,Electronics,1
+3298,Bangalore,2026-01-13,12:11,Groceries,0
+27622,Mumbai,2026-01-13,02:56,Travel,1
+2421,Bangalore,2026-01-13,12:19,Bus Ticket,0
+9065,Pune,2026-01-13,22:59,Electronics,1
+4428,Bangalore,2026-01-13,12:52,Fuel,0
+17236,Pune,2026-01-13,00:23,Resort Booking,1
+5498,Bangalore,2026-01-13,15:54,Tea,0
+22510,Pune,2026-01-13,22:59,International Purchase,1
+1832,Andhra,2026-01-13,21:04,Clothing,0
+11905,Pune,2026-01-13,23:36,Travel,1
+3934,Andhra,2026-01-13,20:01,Bus Ticket,0
+8262,Pune,2026-01-13,04:09,Online Shopping,1
+586,Bangalore,2026-01-13,12:37,Fuel,0
+23267,Ahmedabad,2026-01-13,00:10,Luxury Goods,1
+5817,Bangalore,2026-01-13,17:15,Milk & Groceries,0
+25168,Delhi,2026-01-13,00:16,Online Shopping,1
+5887,Andhra,2026-01-13,19:05,Milk & Groceries,0
+27175,Pune,2026-01-14,23:55,Foreign Transaction,1
+1209,Bangalore,2026-01-14,17:56,Fuel,0
+26988,Ahmedabad,2026-01-14,03:30,International Purchase,1
+3703,Andhra,2026-01-14,08:34,Tea,0
+24463,Goa,2026-01-14,00:45,Resort Booking,1
+2976,Hyderabad,2026-01-14,19:27,Groceries,0
+7448,Mumbai,2026-01-14,00:00,Luxury Goods,1
+3995,Bangalore,2026-01-14,18:00,Clothing,0
+20251,Ahmedabad,2026-01-14,22:29,International Purchase,1
+2575,Bangalore,2026-01-14,11:27,Clothing,0
+15027,Goa,2026-01-14,04:28,Travel,1
+4017,Andhra,2026-01-14,08:47,Fuel,0
+14157,Goa,2026-01-14,23:55,Resort Booking,1
+3353,Bangalore,2026-01-14,13:27,Groceries,0
+19349,Pune,2026-01-14,02:18,Electronics,1
+745,Bangalore,2026-01-14,16:24,Clothing,0
+17373,Ahmedabad,2026-01-14,04:50,Travel,1
+4959,Bangalore,2026-01-14,10:44,Milk & Groceries,0
+17203,Kolkata,2026-01-14,03:40,International Purchase,1
+3002,Andhra,2026-01-14,10:21,Bus Ticket,0
+22289,Chennai,2026-01-14,00:43,Travel,1
+5654,Andhra,2026-01-14,15:34,Utilities,0
+12343,Goa,2026-01-14,04:28,Electronics,1
+1890,Bangalore,2026-01-14,07:38,Milk & Groceries,0
+29691,Kolkata,2026-01-14,01:02,Online Shopping,1
+2834,Bangalore,2026-01-15,14:07,Bus Ticket,0
+15304,Jaipur,2026-01-15,01:09,Online Shopping,1
+3220,Andhra,2026-01-15,21:51,Bus Ticket,0
+15863,Chennai,2026-01-15,00:33,Foreign Transaction,1
+4168,Hyderabad,2026-01-15,20:35,Fuel,0
+28213,Delhi,2026-01-15,02:51,Luxury Goods,1
+4905,Bangalore,2026-01-15,19:39,Clothing,0
+28067,Kolkata,2026-01-15,02:32,Luxury Goods,1
+4786,Bangalore,2026-01-15,07:09,Groceries,0
+10851,Ahmedabad,2026-01-15,02:56,Travel,1
+3521,Bangalore,2026-01-15,17:39,Utilities,0
+9819,Jaipur,2026-01-15,00:51,Luxury Goods,1
+4447,Andhra,2026-01-15,16:57,Clothing,0
+27817,Jaipur,2026-01-15,01:18,Travel,1
+1245,Bangalore,2026-01-15,21:27,Clothing,0
+7593,Pune,2026-01-15,01:38,Travel,1
+5250,Bangalore,2026-01-15,14:42,Fuel,0
+27289,Ahmedabad,2026-01-15,01:00,International Purchase,1
+1655,Andhra,2026-01-15,07:08,Utilities,0
+11677,Goa,2026-01-15,02:44,Electronics,1
+3255,Bangalore,2026-01-15,18:56,Restaurant,0
+10326,Kolkata,2026-01-15,02:42,Foreign Transaction,1
+5402,Andhra,2026-01-15,09:53,Restaurant,0
+7773,Delhi,2026-01-15,01:50,Resort Booking,1
+4679,Bangalore,2026-01-15,10:14,Utilities,0
+29901,Ahmedabad,2026-01-16,04:42,Online Shopping,1
+4656,Bangalore,2026-01-16,12:32,Groceries,0
+28470,Goa,2026-01-16,03:32,Resort Booking,1
+5843,Hyderabad,2026-01-16,14:37,Clothing,0
+7135,Mumbai,2026-01-16,01:30,Online Shopping,1
+3952,Bangalore,2026-01-16,08:35,Restaurant,0
+10013,Pune,2026-01-16,22:48,International Purchase,1
+3686,Hyderabad,2026-01-16,21:14,Milk & Groceries,0
+29528,Mumbai,2026-01-16,23:29,Resort Booking,1
+1565,Bangalore,2026-01-16,17:31,Utilities,0
+25646,Delhi,2026-01-16,01:00,International Purchase,1
+5127,Andhra,2026-01-16,11:43,Tea,0
+18487,Jaipur,2026-01-16,01:18,Electronics,1
+2089,Bangalore,2026-01-16,07:39,Utilities,0
+19005,Kolkata,2026-01-16,00:40,Foreign Transaction,1
+2325,Hyderabad,2026-01-16,16:29,Tea,0
+17544,Kolkata,2026-01-16,03:48,Foreign Transaction,1
+3632,Andhra,2026-01-16,12:27,Tea,0
+15955,Chennai,2026-01-16,02:35,Luxury Goods,1
+1507,Bangalore,2026-01-16,12:43,Utilities,0
+9991,Chennai,2026-01-16,22:51,Electronics,1
+4098,Bangalore,2026-01-16,12:02,Pharmacy,0
+27630,Chennai,2026-01-16,23:13,Electronics,1
+5638,Andhra,2026-01-16,19:55,Bus Ticket,0
+7987,Jaipur,2026-01-16,02:24,Travel,1
+998,Hyderabad,2026-01-17,09:12,Groceries,0
+13300,Jaipur,2026-01-17,00:57,Luxury Goods,1
+1272,Andhra,2026-01-17,19:21,Restaurant,0
+25684,Delhi,2026-01-17,22:11,Foreign Transaction,1
+2918,Bangalore,2026-01-17,11:52,Bus Ticket,0
+21310,Jaipur,2026-01-17,01:52,Travel,1
+1406,Bangalore,2026-01-17,10:46,Fuel,0
+25052,Ahmedabad,2026-01-17,02:45,Electronics,1
+1150,Hyderabad,2026-01-17,14:37,Pharmacy,0
+23056,Ahmedabad,2026-01-17,00:13,Resort Booking,1
+1171,Bangalore,2026-01-17,08:13,Utilities,0
+11877,Delhi,2026-01-17,22:49,International Purchase,1
+3143,Hyderabad,2026-01-17,08:26,Milk & Groceries,0
+23561,Delhi,2026-01-17,01:06,Resort Booking,1
+317,Hyderabad,2026-01-17,11:47,Clothing,0
+10983,Mumbai,2026-01-17,01:15,Online Shopping,1
+4977,Bangalore,2026-01-17,12:20,Restaurant,0
+22289,Ahmedabad,2026-01-17,04:11,Online Shopping,1
+3044,Bangalore,2026-01-17,17:29,Bus Ticket,0
+19218,Delhi,2026-01-17,00:06,Luxury Goods,1
+3278,Bangalore,2026-01-17,14:58,Bus Ticket,0
+14487,Ahmedabad,2026-01-17,22:30,Electronics,1
+2616,Hyderabad,2026-01-17,20:21,Restaurant,0
+27801,Kolkata,2026-01-17,22:38,Luxury Goods,1
+2600,Bangalore,2026-01-17,17:29,Clothing,0
+17579,Chennai,2026-01-18,22:27,Online Shopping,1
+5692,Bangalore,2026-01-18,21:24,Fuel,0
+16951,Mumbai,2026-01-18,23:40,Electronics,1
+3338,Bangalore,2026-01-18,20:07,Utilities,0
+17345,Ahmedabad,2026-01-18,02:30,Electronics,1
+2794,Bangalore,2026-01-18,11:16,Groceries,0
+26699,Mumbai,2026-01-18,23:24,Resort Booking,1
+526,Andhra,2026-01-18,07:54,Milk & Groceries,0
+22535,Jaipur,2026-01-18,04:54,Electronics,1
+3644,Hyderabad,2026-01-18,14:03,Milk & Groceries,0
+7795,Goa,2026-01-18,04:02,Travel,1
+714,Andhra,2026-01-18,11:04,Groceries,0
+26374,Delhi,2026-01-18,22:04,International Purchase,1
+5438,Hyderabad,2026-01-18,20:36,Utilities,0
+11916,Pune,2026-01-18,23:57,Resort Booking,1
+1068,Bangalore,2026-01-18,16:58,Bus Ticket,0
+25694,Goa,2026-01-18,03:48,Luxury Goods,1
+5228,Bangalore,2026-01-18,16:37,Groceries,0
+7463,Mumbai,2026-01-18,22:05,Luxury Goods,1
+1293,Andhra,2026-01-18,19:15,Fuel,0
+18543,Mumbai,2026-01-18,02:11,Luxury Goods,1
+3768,Hyderabad,2026-01-18,14:20,Pharmacy,0
+9507,Pune,2026-01-18,03:56,Travel,1
+757,Bangalore,2026-01-18,19:25,Restaurant,0
+16742,Chennai,2026-01-18,01:55,International Purchase,1
+5925,Bangalore,2026-01-19,20:23,Milk & Groceries,0
+17126,Ahmedabad,2026-01-19,04:50,Electronics,1
+1596,Hyderabad,2026-01-19,19:24,Utilities,0
+9423,Pune,2026-01-19,01:02,Foreign Transaction,1
+2887,Andhra,2026-01-19,20:57,Restaurant,0
+24409,Delhi,2026-01-19,03:39,Online Shopping,1
+518,Bangalore,2026-01-19,13:43,Clothing,0
+21757,Mumbai,2026-01-19,02:26,Electronics,1
+4486,Andhra,2026-01-19,20:01,Tea,0
+29587,Ahmedabad,2026-01-19,23:10,Resort Booking,1
+4022,Andhra,2026-01-19,10:55,Restaurant,0
+29247,Pune,2026-01-19,01:45,Electronics,1
+4710,Hyderabad,2026-01-19,10:17,Tea,0
+22800,Jaipur,2026-01-19,03:57,Luxury Goods,1
+5025,Bangalore,2026-01-19,08:35,Bus Ticket,0
+11785,Jaipur,2026-01-19,01:56,Online Shopping,1
+4649,Andhra,2026-01-19,19:05,Tea,0
+13380,Mumbai,2026-01-19,03:55,Resort Booking,1
+2467,Andhra,2026-01-19,14:14,Restaurant,0
+16793,Chennai,2026-01-19,02:13,International Purchase,1
+5260,Bangalore,2026-01-19,13:33,Restaurant,0
+24762,Goa,2026-01-19,02:33,Electronics,1
+3303,Andhra,2026-01-19,19:52,Tea,0
+27094,Delhi,2026-01-19,22:47,Travel,1
+3005,Andhra,2026-01-19,19:48,Milk & Groceries,0
+16304,Mumbai,2026-01-20,00:25,International Purchase,1
+821,Hyderabad,2026-01-20,09:02,Tea,0
+7993,Mumbai,2026-01-20,00:55,Electronics,1
+5768,Hyderabad,2026-01-20,07:21,Fuel,0
+12484,Goa,2026-01-20,00:34,Resort Booking,1
+5380,Hyderabad,2026-01-20,10:19,Pharmacy,0
+15079,Kolkata,2026-01-20,23:46,Resort Booking,1
+1939,Andhra,2026-01-20,20:06,Pharmacy,0
+18097,Goa,2026-01-20,01:59,Electronics,1
+3619,Hyderabad,2026-01-20,09:33,Milk & Groceries,0
+12954,Chennai,2026-01-20,04:36,Travel,1
+5824,Bangalore,2026-01-20,11:18,Tea,0
+11733,Goa,2026-01-20,02:22,Resort Booking,1
+643,Bangalore,2026-01-20,12:10,Clothing,0
+16668,Delhi,2026-01-20,03:47,Online Shopping,1
+3466,Hyderabad,2026-01-20,14:15,Restaurant,0
+12668,Delhi,2026-01-20,00:59,Resort Booking,1
+4605,Hyderabad,2026-01-20,11:55,Groceries,0
+18771,Jaipur,2026-01-20,04:12,Travel,1
+5794,Andhra,2026-01-20,08:01,Clothing,0
+14137,Delhi,2026-01-20,04:04,Foreign Transaction,1
+3751,Hyderabad,2026-01-20,18:13,Milk & Groceries,0
+22047,Chennai,2026-01-20,00:14,Luxury Goods,1
+486,Andhra,2026-01-20,20:47,Clothing,0
+18009,Kolkata,2026-01-20,01:53,Luxury Goods,1
+3570,Hyderabad,2026-01-21,17:38,Utilities,0
+7307,Mumbai,2026-01-21,02:30,Luxury Goods,1
+2983,Bangalore,2026-01-21,07:40,Groceries,0
+10537,Chennai,2026-01-21,22:48,Luxury Goods,1
+3241,Andhra,2026-01-21,20:29,Utilities,0
+20991,Chennai,2026-01-21,23:45,Resort Booking,1
+4270,Bangalore,2026-01-21,18:58,Utilities,0
+15070,Pune,2026-01-21,00:37,Resort Booking,1
+4419,Andhra,2026-01-21,15:59,Groceries,0
+10261,Jaipur,2026-01-21,02:56,Luxury Goods,1
+5479,Hyderabad,2026-01-21,09:34,Clothing,0
+15079,Goa,2026-01-21,03:31,International Purchase,1
+454,Bangalore,2026-01-21,21:05,Groceries,0
+8335,Kolkata,2026-01-21,03:21,International Purchase,1
+1417,Andhra,2026-01-21,14:47,Pharmacy,0
+26515,Kolkata,2026-01-21,23:30,Travel,1
+1249,Hyderabad,2026-01-21,14:54,Fuel,0
+10589,Delhi,2026-01-21,01:37,Online Shopping,1
+3941,Andhra,2026-01-21,07:20,Pharmacy,0
+25382,Pune,2026-01-21,04:58,Travel,1
+4433,Andhra,2026-01-21,21:14,Pharmacy,0
+11211,Kolkata,2026-01-21,23:32,Electronics,1
+5686,Andhra,2026-01-21,10:37,Fuel,0
+29023,Chennai,2026-01-21,23:06,Luxury Goods,1
+3377,Andhra,2026-01-21,10:18,Groceries,0
+18736,Mumbai,2026-01-22,00:29,Luxury Goods,1
+3700,Bangalore,2026-01-22,10:27,Utilities,0
+12771,Pune,2026-01-22,02:14,Luxury Goods,1
+5323,Andhra,2026-01-22,09:32,Clothing,0
+14467,Pune,2026-01-22,22:12,Luxury Goods,1
+1082,Bangalore,2026-01-22,19:46,Utilities,0
+25842,Ahmedabad,2026-01-22,03:28,International Purchase,1
+4476,Hyderabad,2026-01-22,09:43,Fuel,0
+11465,Ahmedabad,2026-01-22,23:40,International Purchase,1
+4930,Bangalore,2026-01-22,15:11,Clothing,0
+20522,Chennai,2026-01-22,23:44,Luxury Goods,1
+3650,Hyderabad,2026-01-22,10:50,Utilities,0
+22808,Pune,2026-01-22,03:58,Luxury Goods,1
+3309,Bangalore,2026-01-22,21:48,Milk & Groceries,0
+10656,Goa,2026-01-22,22:25,Online Shopping,1
+623,Hyderabad,2026-01-22,07:53,Clothing,0
+29789,Goa,2026-01-22,04:32,Electronics,1
+5923,Bangalore,2026-01-22,20:12,Pharmacy,0
+15317,Chennai,2026-01-22,02:20,Foreign Transaction,1
+516,Bangalore,2026-01-22,17:41,Fuel,0
+11091,Jaipur,2026-01-22,03:58,Foreign Transaction,1
+2542,Bangalore,2026-01-22,21:51,Utilities,0
+24224,Ahmedabad,2026-01-22,02:24,Foreign Transaction,1
+1104,Andhra,2026-01-22,18:34,Clothing,0
+10934,Jaipur,2026-01-22,02:34,Online Shopping,1
+3322,Andhra,2026-01-23,09:43,Fuel,0
+9688,Kolkata,2026-01-23,03:04,Resort Booking,1
+4660,Bangalore,2026-01-23,12:47,Bus Ticket,0
+11540,Jaipur,2026-01-23,03:02,Electronics,1
+3445,Bangalore,2026-01-23,12:12,Groceries,0
+22917,Kolkata,2026-01-23,04:00,Online Shopping,1
+1157,Hyderabad,2026-01-23,08:30,Pharmacy,0
+13667,Jaipur,2026-01-23,04:17,International Purchase,1
+3510,Bangalore,2026-01-23,07:06,Tea,0
+23443,Ahmedabad,2026-01-23,22:05,Electronics,1
+5973,Hyderabad,2026-01-23,20:31,Milk & Groceries,0
+8485,Kolkata,2026-01-23,23:41,Travel,1
+3720,Hyderabad,2026-01-23,16:45,Pharmacy,0
+25685,Kolkata,2026-01-23,23:33,Travel,1
+5040,Hyderabad,2026-01-23,07:32,Utilities,0
+17491,Goa,2026-01-23,02:44,Electronics,1
+3892,Bangalore,2026-01-23,11:40,Utilities,0
+18550,Pune,2026-01-23,01:50,Foreign Transaction,1
+2518,Hyderabad,2026-01-23,17:37,Milk & Groceries,0
+14159,Mumbai,2026-01-23,23:31,International Purchase,1
+5529,Bangalore,2026-01-23,20:29,Utilities,0
+9836,Goa,2026-01-23,01:48,Foreign Transaction,1
+1389,Bangalore,2026-01-23,17:20,Groceries,0
+8936,Chennai,2026-01-23,04:19,Electronics,1
+4710,Bangalore,2026-01-23,21:10,Groceries,0
+20855,Chennai,2026-01-24,01:07,Electronics,1
+3491,Hyderabad,2026-01-24,16:36,Pharmacy,0
+8276,Delhi,2026-01-24,02:29,Travel,1
+1522,Andhra,2026-01-24,14:41,Fuel,0
+14578,Delhi,2026-01-24,01:59,International Purchase,1
+2986,Hyderabad,2026-01-24,18:16,Groceries,0
+25021,Kolkata,2026-01-24,00:49,Resort Booking,1
+5052,Andhra,2026-01-24,17:10,Fuel,0
+9682,Jaipur,2026-01-24,02:58,International Purchase,1
+4235,Andhra,2026-01-24,07:18,Bus Ticket,0
+29651,Pune,2026-01-24,23:54,Resort Booking,1
+1372,Hyderabad,2026-01-24,20:15,Bus Ticket,0
+29768,Delhi,2026-01-24,02:32,International Purchase,1
+2797,Bangalore,2026-01-24,08:34,Tea,0
+7102,Mumbai,2026-01-24,00:49,Travel,1
+3381,Bangalore,2026-01-24,07:21,Pharmacy,0
+8968,Ahmedabad,2026-01-24,00:09,Resort Booking,1
+3135,Bangalore,2026-01-24,19:16,Pharmacy,0
+20732,Delhi,2026-01-24,23:04,International Purchase,1
+357,Bangalore,2026-01-24,16:36,Clothing,0
+17881,Kolkata,2026-01-24,01:32,Foreign Transaction,1
+4977,Andhra,2026-01-24,17:14,Utilities,0
+10444,Chennai,2026-01-24,00:39,Online Shopping,1
+1895,Andhra,2026-01-24,17:23,Utilities,0
+28706,Kolkata,2026-01-24,02:32,Resort Booking,1
+3016,Hyderabad,2026-01-25,18:18,Milk & Groceries,0
+29413,Delhi,2026-01-25,22:19,International Purchase,1
+5736,Hyderabad,2026-01-25,12:13,Tea,0
+29650,Mumbai,2026-01-25,03:45,Travel,1
+1693,Andhra,2026-01-25,15:12,Tea,0
+17140,Mumbai,2026-01-25,23:30,Online Shopping,1
+5821,Andhra,2026-01-25,11:16,Bus Ticket,0
+17202,Chennai,2026-01-25,22:23,International Purchase,1
+1837,Bangalore,2026-01-25,14:21,Restaurant,0
+29055,Chennai,2026-01-25,22:56,International Purchase,1
+1314,Hyderabad,2026-01-25,20:53,Pharmacy,0
+22398,Mumbai,2026-01-25,02:30,Luxury Goods,1
+5909,Andhra,2026-01-25,16:44,Restaurant,0
+25859,Chennai,2026-01-25,02:44,International Purchase,1
+4524,Bangalore,2026-01-25,09:15,Tea,0
+18773,Goa,2026-01-25,03:59,Foreign Transaction,1
+2934,Hyderabad,2026-01-25,17:19,Bus Ticket,0
+21209,Goa,2026-01-25,23:27,Luxury Goods,1
+3659,Andhra,2026-01-25,20:40,Tea,0
+12177,Delhi,2026-01-25,01:46,Electronics,1
+4856,Hyderabad,2026-01-25,21:13,Utilities,0
+19206,Mumbai,2026-01-25,00:24,Electronics,1
+5478,Bangalore,2026-01-25,15:49,Tea,0
+28567,Mumbai,2026-01-25,22:44,Luxury Goods,1
+5855,Andhra,2026-01-25,20:12,Fuel,0
+28864,Chennai,2026-01-26,02:23,Luxury Goods,1
+603,Andhra,2026-01-26,07:59,Groceries,0
+21729,Kolkata,2026-01-26,04:36,Resort Booking,1
+1468,Hyderabad,2026-01-26,12:53,Pharmacy,0
+16603,Chennai,2026-01-26,01:27,Luxury Goods,1
+4111,Hyderabad,2026-01-26,15:22,Utilities,0
+21555,Pune,2026-01-26,04:05,Resort Booking,1
+1059,Bangalore,2026-01-26,08:30,Milk & Groceries,0
+17755,Mumbai,2026-01-26,04:23,International Purchase,1
+817,Andhra,2026-01-26,21:12,Tea,0
+13764,Goa,2026-01-26,04:28,International Purchase,1
+2402,Hyderabad,2026-01-26,19:02,Fuel,0
+24112,Chennai,2026-01-26,01:21,Luxury Goods,1
+3809,Andhra,2026-01-26,18:23,Fuel,0
+17585,Delhi,2026-01-26,02:03,Online Shopping,1
+5685,Andhra,2026-01-26,08:31,Groceries,0
+8902,Chennai,2026-01-26,23:20,Resort Booking,1
+533,Hyderabad,2026-01-26,10:08,Bus Ticket,0
+21182,Jaipur,2026-01-26,01:08,Foreign Transaction,1
+895,Bangalore,2026-01-26,07:37,Utilities,0
+22035,Delhi,2026-01-26,01:15,Luxury Goods,1
+2225,Hyderabad,2026-01-26,10:12,Milk & Groceries,0
+7925,Chennai,2026-01-26,02:47,Online Shopping,1
+2791,Bangalore,2026-01-26,14:31,Clothing,0
+25214,Chennai,2026-01-26,00:03,Electronics,1
+1271,Andhra,2026-01-27,19:28,Milk & Groceries,0
+12237,Ahmedabad,2026-01-27,23:54,Electronics,1
+1712,Bangalore,2026-01-27,20:25,Groceries,0
+29881,Mumbai,2026-01-27,22:52,Luxury Goods,1
+5311,Hyderabad,2026-01-27,12:35,Fuel,0
+26785,Chennai,2026-01-27,01:46,Resort Booking,1
+5012,Bangalore,2026-01-27,19:46,Clothing,0
+27629,Pune,2026-01-27,00:58,Travel,1
+5360,Andhra,2026-01-27,11:48,Utilities,0
+8238,Kolkata,2026-01-27,00:15,Online Shopping,1
+957,Hyderabad,2026-01-27,21:45,Tea,0
+17752,Chennai,2026-01-27,02:13,Electronics,1
+5731,Hyderabad,2026-01-27,13:34,Groceries,0
+26146,Jaipur,2026-01-27,03:23,Luxury Goods,1
+1849,Hyderabad,2026-01-27,10:59,Utilities,0
+28524,Chennai,2026-01-27,02:37,Travel,1
+1501,Hyderabad,2026-01-27,09:58,Pharmacy,0
+13243,Kolkata,2026-01-27,00:53,Online Shopping,1
+2837,Bangalore,2026-01-27,19:46,Utilities,0
+7121,Ahmedabad,2026-01-27,22:49,Luxury Goods,1
+5389,Bangalore,2026-01-27,08:07,Fuel,0
+29863,Mumbai,2026-01-27,23:24,Travel,1
+5231,Andhra,2026-01-27,09:13,Milk & Groceries,0
+12633,Chennai,2026-01-27,00:22,Luxury Goods,1
+1891,Hyderabad,2026-01-27,16:38,Milk & Groceries,0
+10427,Delhi,2026-01-28,00:26,International Purchase,1
+4572,Andhra,2026-01-28,07:04,Restaurant,0
+29009,Ahmedabad,2026-01-28,01:41,Travel,1
+1342,Hyderabad,2026-01-28,12:27,Groceries,0
+24670,Chennai,2026-01-28,23:21,International Purchase,1
+4013,Bangalore,2026-01-28,19:55,Milk & Groceries,0
+21604,Pune,2026-01-28,03:16,Online Shopping,1
+2670,Andhra,2026-01-28,12:48,Bus Ticket,0
+15644,Ahmedabad,2026-01-28,02:10,Online Shopping,1
+3597,Andhra,2026-01-28,09:56,Restaurant,0
+10824,Kolkata,2026-01-28,02:39,Luxury Goods,1
+5135,Andhra,2026-01-28,18:43,Tea,0
+16861,Kolkata,2026-01-28,04:57,Luxury Goods,1
+5060,Hyderabad,2026-01-28,13:09,Pharmacy,0
+20085,Jaipur,2026-01-28,23:43,International Purchase,1
+458,Andhra,2026-01-28,13:38,Groceries,0
+19490,Pune,2026-01-28,00:16,Electronics,1
+2584,Bangalore,2026-01-28,07:13,Utilities,0
+25012,Ahmedabad,2026-01-28,22:49,Travel,1
+3882,Bangalore,2026-01-28,21:55,Utilities,0
+29335,Ahmedabad,2026-01-28,04:58,Travel,1
+3850,Hyderabad,2026-01-28,08:44,Bus Ticket,0
+16633,Mumbai,2026-01-28,02:10,Electronics,1
+3758,Andhra,2026-01-28,11:01,Tea,0
+25912,Kolkata,2026-01-28,02:35,Travel,1
+4277,Hyderabad,2026-01-29,17:17,Milk & Groceries,0
+15402,Chennai,2026-01-29,02:32,Electronics,1
+5461,Bangalore,2026-01-29,13:39,Tea,0
+29719,Mumbai,2026-01-29,03:34,International Purchase,1
+4367,Hyderabad,2026-01-29,16:08,Restaurant,0
+20710,Jaipur,2026-01-29,04:18,Foreign Transaction,1
+2959,Hyderabad,2026-01-29,20:35,Fuel,0
+18280,Pune,2026-01-29,01:46,Resort Booking,1
+5210,Bangalore,2026-01-29,17:51,Clothing,0
+20558,Pune,2026-01-29,00:13,Luxury Goods,1
+5052,Hyderabad,2026-01-29,12:53,Utilities,0
+9850,Mumbai,2026-01-29,02:13,Online Shopping,1
+5246,Hyderabad,2026-01-29,17:10,Pharmacy,0
+18762,Delhi,2026-01-29,22:27,Luxury Goods,1
+4687,Bangalore,2026-01-29,19:09,Pharmacy,0
+24691,Jaipur,2026-01-29,00:06,Travel,1
+2933,Hyderabad,2026-01-29,08:39,Bus Ticket,0
+15326,Pune,2026-01-29,04:00,Resort Booking,1
+3206,Bangalore,2026-01-29,15:18,Utilities,0
+27095,Delhi,2026-01-29,04:29,Online Shopping,1
+3973,Bangalore,2026-01-29,13:40,Bus Ticket,0
+29837,Chennai,2026-01-29,22:02,Electronics,1
+2581,Hyderabad,2026-01-29,11:20,Tea,0
+28748,Ahmedabad,2026-01-29,00:11,Electronics,1
+3280,Andhra,2026-01-29,09:32,Bus Ticket,0
+11553,Mumbai,2026-01-30,23:21,Electronics,1
+468,Bangalore,2026-01-30,19:42,Restaurant,0
+15061,Kolkata,2026-01-30,02:20,International Purchase,1
+3813,Hyderabad,2026-01-30,13:42,Tea,0
+26220,Delhi,2026-01-30,23:54,Travel,1
+3841,Andhra,2026-01-30,20:42,Groceries,0
+9641,Mumbai,2026-01-30,02:21,International Purchase,1
+2171,Bangalore,2026-01-30,12:11,Clothing,0
+10788,Pune,2026-01-30,00:02,International Purchase,1
+3399,Bangalore,2026-01-30,18:25,Milk & Groceries,0
+8171,Ahmedabad,2026-01-30,03:18,Online Shopping,1
+2876,Andhra,2026-01-30,15:01,Milk & Groceries,0
+15991,Mumbai,2026-01-30,00:35,Electronics,1
+3686,Andhra,2026-01-30,13:23,Groceries,0
+8813,Mumbai,2026-01-30,01:41,Luxury Goods,1
+5553,Bangalore,2026-01-30,17:55,Tea,0
+12255,Jaipur,2026-01-30,04:35,Electronics,1
+406,Andhra,2026-01-30,20:54,Groceries,0
+14805,Chennai,2026-01-30,03:26,Resort Booking,1
+2458,Hyderabad,2026-01-30,19:04,Tea,0
+9158,Kolkata,2026-01-30,22:08,Foreign Transaction,1
+5509,Hyderabad,2026-01-30,19:39,Clothing,0
+14487,Pune,2026-01-30,04:33,International Purchase,1
+1739,Bangalore,2026-01-30,09:52,Pharmacy,0
+13445,Delhi,2026-01-30,01:26,Foreign Transaction,1
+5694,Hyderabad,2026-01-31,18:08,Pharmacy,0
+7548,Pune,2026-01-31,04:49,Foreign Transaction,1
+5475,Bangalore,2026-01-31,17:45,Milk & Groceries,0
+27619,Ahmedabad,2026-01-31,00:33,Luxury Goods,1
+2691,Hyderabad,2026-01-31,19:53,Milk & Groceries,0
+12470,Goa,2026-01-31,03:47,Foreign Transaction,1
+920,Bangalore,2026-01-31,15:16,Fuel,0
+22292,Pune,2026-01-31,04:48,Electronics,1
+327,Bangalore,2026-01-31,15:10,Utilities,0
+25467,Mumbai,2026-01-31,01:37,Foreign Transaction,1
+517,Andhra,2026-01-31,17:04,Pharmacy,0
+28509,Jaipur,2026-01-31,23:17,Foreign Transaction,1
+3894,Hyderabad,2026-01-31,09:52,Utilities,0
+16120,Chennai,2026-01-31,22:03,Luxury Goods,1
+5294,Andhra,2026-01-31,12:56,Clothing,0
+28011,Delhi,2026-01-31,22:26,International Purchase,1
+3368,Bangalore,2026-01-31,08:55,Fuel,0
+29051,Chennai,2026-01-31,02:12,Online Shopping,1
+4703,Andhra,2026-01-31,11:36,Pharmacy,0
+11941,Pune,2026-01-31,03:57,Resort Booking,1
+4908,Andhra,2026-01-31,07:28,Utilities,0
+13582,Chennai,2026-01-31,03:58,Travel,1
+955,Hyderabad,2026-01-31,14:38,Pharmacy,0
+24530,Chennai,2026-01-31,23:32,Electronics,1
+488,Bangalore,2026-01-31,13:39,Tea,0
+11906,Chennai,2026-02-01,22:48,Resort Booking,1
+1539,Hyderabad,2026-02-01,13:35,Pharmacy,0
+18369,Kolkata,2026-02-01,04:59,Foreign Transaction,1
+1599,Hyderabad,2026-02-01,13:08,Clothing,0
+8104,Pune,2026-02-01,04:03,Travel,1
+4265,Hyderabad,2026-02-01,17:39,Pharmacy,0
+28187,Pune,2026-02-01,00:51,Resort Booking,1
+704,Andhra,2026-02-01,11:32,Pharmacy,0
+18244,Chennai,2026-02-01,03:59,Resort Booking,1
+4637,Andhra,2026-02-01,19:37,Utilities,0
+8549,Mumbai,2026-02-01,02:17,Foreign Transaction,1
+1277,Bangalore,2026-02-01,18:48,Bus Ticket,0
+21675,Goa,2026-02-01,04:08,Resort Booking,1
+4247,Andhra,2026-02-01,18:40,Clothing,0
+17589,Kolkata,2026-02-01,02:03,International Purchase,1
+577,Bangalore,2026-02-01,13:54,Restaurant,0
+27189,Kolkata,2026-02-01,00:59,Travel,1
+2172,Bangalore,2026-02-01,17:46,Pharmacy,0
+9356,Mumbai,2026-02-01,23:21,Electronics,1
+989,Andhra,2026-02-01,15:46,Tea,0
+18179,Delhi,2026-02-01,04:30,Luxury Goods,1
+2080,Andhra,2026-02-01,16:45,Clothing,0
+27787,Jaipur,2026-02-01,04:09,Electronics,1
+4773,Andhra,2026-02-01,10:37,Fuel,0
+21443,Jaipur,2026-02-01,22:55,Online Shopping,1
+1525,Bangalore,2026-02-02,17:26,Clothing,0
+10713,Kolkata,2026-02-02,23:43,Resort Booking,1
+826,Andhra,2026-02-02,14:35,Bus Ticket,0
+25979,Mumbai,2026-02-02,23:49,Electronics,1
+4785,Andhra,2026-02-02,16:45,Restaurant,0
+23317,Goa,2026-02-02,01:31,Luxury Goods,1
+5793,Bangalore,2026-02-02,08:35,Groceries,0
+29655,Chennai,2026-02-02,23:38,Foreign Transaction,1
+3797,Hyderabad,2026-02-02,15:14,Groceries,0
+12132,Jaipur,2026-02-02,03:10,Foreign Transaction,1
+2961,Andhra,2026-02-02,11:02,Pharmacy,0
+11537,Chennai,2026-02-02,22:32,Online Shopping,1
+5414,Andhra,2026-02-02,17:05,Pharmacy,0
+18165,Ahmedabad,2026-02-02,00:13,Online Shopping,1
+1488,Bangalore,2026-02-02,19:38,Pharmacy,0
+10644,Kolkata,2026-02-02,04:06,Electronics,1
+1929,Hyderabad,2026-02-02,09:26,Pharmacy,0
+7851,Delhi,2026-02-02,03:39,Online Shopping,1
+2299,Bangalore,2026-02-02,08:54,Groceries,0
+18478,Kolkata,2026-02-02,03:34,Electronics,1
+4118,Hyderabad,2026-02-02,07:16,Clothing,0
+21079,Goa,2026-02-02,22:56,Resort Booking,1
+1605,Bangalore,2026-02-02,21:45,Groceries,0
+7587,Kolkata,2026-02-02,01:38,International Purchase,1
+1982,Hyderabad,2026-02-02,12:16,Utilities,0
+20103,Pune,2026-02-03,03:50,Resort Booking,1
+1492,Hyderabad,2026-02-03,07:07,Groceries,0
+29060,Delhi,2026-02-03,23:59,Online Shopping,1
+4218,Andhra,2026-02-03,10:01,Clothing,0
+29644,Kolkata,2026-02-03,22:39,Online Shopping,1
+5033,Andhra,2026-02-03,20:56,Clothing,0
+12555,Goa,2026-02-03,03:43,Foreign Transaction,1
+4001,Hyderabad,2026-02-03,09:23,Bus Ticket,0
+29673,Delhi,2026-02-03,02:42,Resort Booking,1
+2595,Hyderabad,2026-02-03,09:57,Restaurant,0
+12309,Pune,2026-02-03,23:12,International Purchase,1
+4487,Bangalore,2026-02-03,08:53,Groceries,0
+14600,Goa,2026-02-03,01:07,Foreign Transaction,1
+951,Bangalore,2026-02-03,21:37,Tea,0
+7518,Ahmedabad,2026-02-03,02:31,Foreign Transaction,1
+1033,Bangalore,2026-02-03,10:58,Fuel,0
+19000,Kolkata,2026-02-03,04:17,International Purchase,1
+1149,Bangalore,2026-02-03,19:32,Groceries,0
+25745,Pune,2026-02-03,01:57,Online Shopping,1
+4910,Hyderabad,2026-02-03,15:41,Pharmacy,0
+21275,Mumbai,2026-02-03,02:23,Online Shopping,1
+358,Andhra,2026-02-03,12:44,Bus Ticket,0
+14718,Delhi,2026-02-03,22:15,International Purchase,1
+2514,Hyderabad,2026-02-03,17:42,Bus Ticket,0
+20276,Pune,2026-02-03,22:35,Foreign Transaction,1
+872,Andhra,2026-02-04,09:32,Tea,0
+15426,Mumbai,2026-02-04,02:21,International Purchase,1
+369,Bangalore,2026-02-04,08:35,Milk & Groceries,0
+26753,Goa,2026-02-04,02:45,International Purchase,1
+3327,Hyderabad,2026-02-04,09:04,Clothing,0
+12140,Ahmedabad,2026-02-04,04:22,Resort Booking,1
+2665,Hyderabad,2026-02-04,10:27,Utilities,0
+12320,Delhi,2026-02-04,00:08,Foreign Transaction,1
+5518,Hyderabad,2026-02-04,16:42,Groceries,0
+13332,Jaipur,2026-02-04,01:06,Resort Booking,1
+323,Hyderabad,2026-02-04,09:52,Tea,0
+13129,Delhi,2026-02-04,01:53,Online Shopping,1
+2791,Hyderabad,2026-02-04,13:40,Restaurant,0
+14660,Chennai,2026-02-04,23:33,Foreign Transaction,1
+4020,Andhra,2026-02-04,10:53,Milk & Groceries,0
+25092,Kolkata,2026-02-04,00:43,Online Shopping,1
+4656,Hyderabad,2026-02-04,13:35,Groceries,0
+23299,Kolkata,2026-02-04,22:21,Resort Booking,1
+322,Bangalore,2026-02-04,20:32,Pharmacy,0
+8313,Kolkata,2026-02-04,01:22,Luxury Goods,1
+2479,Bangalore,2026-02-04,16:55,Clothing,0
+19021,Pune,2026-02-04,00:37,International Purchase,1
+662,Hyderabad,2026-02-04,19:33,Restaurant,0
+16916,Delhi,2026-02-04,01:06,Travel,1
+946,Hyderabad,2026-02-04,20:23,Fuel,0
+23813,Kolkata,2026-02-05,01:49,Online Shopping,1
+3822,Hyderabad,2026-02-05,21:43,Pharmacy,0
+17321,Jaipur,2026-02-05,01:03,Electronics,1
+506,Andhra,2026-02-05,07:19,Pharmacy,0
+27219,Chennai,2026-02-05,03:19,Luxury Goods,1
+4292,Bangalore,2026-02-05,13:41,Fuel,0
+10461,Chennai,2026-02-05,23:23,Travel,1
+4471,Hyderabad,2026-02-05,11:39,Pharmacy,0
+28087,Ahmedabad,2026-02-05,01:40,Luxury Goods,1
+5620,Bangalore,2026-02-05,09:00,Utilities,0
+22520,Jaipur,2026-02-05,00:25,International Purchase,1
+2146,Andhra,2026-02-05,09:13,Clothing,0
+15830,Goa,2026-02-05,02:06,Electronics,1
+1738,Hyderabad,2026-02-05,19:49,Groceries,0
+11979,Mumbai,2026-02-05,22:13,Foreign Transaction,1
+3934,Andhra,2026-02-05,11:05,Utilities,0
+22150,Ahmedabad,2026-02-05,01:56,International Purchase,1
+4011,Bangalore,2026-02-05,08:44,Clothing,0
+11243,Jaipur,2026-02-05,03:43,Electronics,1
+745,Andhra,2026-02-05,21:52,Pharmacy,0
+16694,Pune,2026-02-05,00:01,Online Shopping,1
+3645,Bangalore,2026-02-05,13:46,Fuel,0
+19420,Delhi,2026-02-05,03:12,Luxury Goods,1
+3197,Andhra,2026-02-05,16:50,Milk & Groceries,0
+20270,Ahmedabad,2026-02-05,23:00,Foreign Transaction,1
+5775,Andhra,2026-02-06,21:57,Bus Ticket,0
+27304,Delhi,2026-02-06,23:00,Foreign Transaction,1
+4429,Bangalore,2026-02-06,07:59,Clothing,0
+19702,Ahmedabad,2026-02-06,04:02,Travel,1
+4753,Andhra,2026-02-06,13:14,Fuel,0
+27491,Ahmedabad,2026-02-06,02:21,Travel,1
+471,Andhra,2026-02-06,12:05,Fuel,0
+17475,Pune,2026-02-06,00:35,Foreign Transaction,1
+2991,Hyderabad,2026-02-06,18:28,Milk & Groceries,0
+8695,Jaipur,2026-02-06,03:37,Luxury Goods,1
+2969,Andhra,2026-02-06,20:21,Restaurant,0
+9606,Delhi,2026-02-06,01:33,International Purchase,1
+3233,Hyderabad,2026-02-06,12:51,Utilities,0
+9978,Kolkata,2026-02-06,00:16,Luxury Goods,1
+2707,Andhra,2026-02-06,07:18,Groceries,0
+27310,Delhi,2026-02-06,23:31,Online Shopping,1
+5736,Bangalore,2026-02-06,21:30,Bus Ticket,0
+22270,Kolkata,2026-02-06,03:50,Resort Booking,1
+4851,Andhra,2026-02-06,20:59,Clothing,0
+24945,Pune,2026-02-06,00:44,Online Shopping,1
+1021,Andhra,2026-02-06,07:14,Bus Ticket,0
+8746,Delhi,2026-02-06,01:36,Luxury Goods,1
+1917,Andhra,2026-02-06,16:59,Fuel,0
+11924,Kolkata,2026-02-06,02:26,International Purchase,1
+4990,Andhra,2026-02-06,13:13,Pharmacy,0
+28823,Goa,2026-02-07,00:18,Luxury Goods,1
+5549,Andhra,2026-02-07,10:43,Utilities,0
+13788,Ahmedabad,2026-02-07,04:10,Luxury Goods,1
+5496,Bangalore,2026-02-07,19:41,Utilities,0
+29042,Pune,2026-02-07,01:11,Travel,1
+5531,Bangalore,2026-02-07,17:38,Restaurant,0
+16618,Jaipur,2026-02-07,01:52,Electronics,1
+2157,Bangalore,2026-02-07,11:37,Fuel,0
+25321,Kolkata,2026-02-07,00:24,Resort Booking,1
+3611,Bangalore,2026-02-07,20:57,Groceries,0
+25325,Chennai,2026-02-07,01:56,International Purchase,1
+1367,Andhra,2026-02-07,17:24,Clothing,0
+25593,Ahmedabad,2026-02-07,01:08,Foreign Transaction,1
+2770,Bangalore,2026-02-07,13:04,Bus Ticket,0
+16300,Pune,2026-02-07,04:13,Online Shopping,1
+5673,Hyderabad,2026-02-07,16:17,Utilities,0
+18028,Jaipur,2026-02-07,04:53,International Purchase,1
+3003,Bangalore,2026-02-07,07:10,Clothing,0
+13823,Goa,2026-02-07,01:59,Foreign Transaction,1
+5611,Bangalore,2026-02-07,17:44,Clothing,0
+20403,Jaipur,2026-02-07,02:30,Travel,1
+5974,Bangalore,2026-02-07,16:07,Bus Ticket,0
+17395,Jaipur,2026-02-07,01:30,Online Shopping,1
+2483,Andhra,2026-02-07,07:00,Bus Ticket,0
+28942,Jaipur,2026-02-07,01:41,Travel,1
+3546,Andhra,2026-02-08,07:04,Bus Ticket,0
+17907,Delhi,2026-02-08,22:56,Foreign Transaction,1
+1990,Andhra,2026-02-08,19:35,Groceries,0
+16375,Mumbai,2026-02-08,22:50,Foreign Transaction,1
+960,Andhra,2026-02-08,08:49,Milk & Groceries,0
+12949,Chennai,2026-02-08,23:41,Online Shopping,1
+1311,Hyderabad,2026-02-08,20:54,Restaurant,0
+19732,Chennai,2026-02-08,03:10,Online Shopping,1
+5741,Bangalore,2026-02-08,13:45,Fuel,0
+15175,Kolkata,2026-02-08,22:17,Luxury Goods,1
+1576,Hyderabad,2026-02-08,10:26,Pharmacy,0
+19160,Chennai,2026-02-08,00:24,Travel,1
+3933,Hyderabad,2026-02-08,15:05,Utilities,0
+9247,Delhi,2026-02-08,01:35,Electronics,1
+3917,Andhra,2026-02-08,07:21,Fuel,0
+21560,Ahmedabad,2026-02-08,03:05,Online Shopping,1
+4508,Bangalore,2026-02-08,12:23,Fuel,0
+27448,Chennai,2026-02-08,04:27,Travel,1
+579,Hyderabad,2026-02-08,12:32,Bus Ticket,0
+17986,Jaipur,2026-02-08,22:29,Online Shopping,1
+5096,Andhra,2026-02-08,21:36,Milk & Groceries,0
+15026,Ahmedabad,2026-02-08,02:10,Online Shopping,1
+4944,Hyderabad,2026-02-08,12:23,Bus Ticket,0
+22955,Goa,2026-02-08,03:53,Resort Booking,1
+1355,Hyderabad,2026-02-08,13:11,Pharmacy,0
+10719,Delhi,2026-02-09,01:09,Electronics,1
+1592,Bangalore,2026-02-09,08:33,Utilities,0
+29615,Mumbai,2026-02-09,22:57,Foreign Transaction,1
+839,Bangalore,2026-02-09,11:08,Fuel,0
+19681,Goa,2026-02-09,02:00,Luxury Goods,1
+2482,Andhra,2026-02-09,19:53,Fuel,0
+10352,Mumbai,2026-02-09,01:52,Online Shopping,1
+1232,Bangalore,2026-02-09,19:18,Utilities,0
+14704,Chennai,2026-02-09,23:45,Foreign Transaction,1
+533,Andhra,2026-02-09,17:59,Utilities,0
+22464,Jaipur,2026-02-09,01:09,International Purchase,1
+5287,Bangalore,2026-02-09,08:13,Clothing,0
+16339,Mumbai,2026-02-09,03:54,Travel,1
+4751,Bangalore,2026-02-09,12:15,Groceries,0
+15203,Kolkata,2026-02-09,22:30,Electronics,1
+2588,Andhra,2026-02-09,16:09,Restaurant,0
+29429,Delhi,2026-02-09,00:04,Travel,1
+5748,Andhra,2026-02-09,10:26,Bus Ticket,0
+15156,Jaipur,2026-02-09,02:10,Online Shopping,1
+2165,Andhra,2026-02-09,09:49,Pharmacy,0
+29851,Chennai,2026-02-09,02:19,Travel,1
+2231,Andhra,2026-02-09,16:36,Restaurant,0
+14979,Delhi,2026-02-09,22:39,Foreign Transaction,1
+5589,Hyderabad,2026-02-09,14:04,Clothing,0
+28102,Pune,2026-02-09,23:03,Luxury Goods,1
