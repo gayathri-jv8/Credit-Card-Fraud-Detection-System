@@ -5,7 +5,7 @@ import sqlite3
 
 # EMAIL CONFIG 
 EMAIL_ADDRESS = "creditcard794@gmail.com"
-EMAIL_PASSWORD = "xvth mknd yirc zrhm"
+EMAIL_PASSWORD = "xxxx xxxx xxxx xxxx"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
@@ -99,3 +99,4 @@ If this transaction was NOT done by you:
 
     except Exception as e:
         print("❌ Email sending failed:", e)
+
