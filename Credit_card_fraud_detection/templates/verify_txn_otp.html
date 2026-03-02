@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | Credit Card Fraud Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- Background -->
+<div class="fraud-bg-static">
+    <div class="card-outline normal"></div>
+    <div class="card-outline warning"></div>
+    <div class="card-outline danger"></div>
+</div>
+<div class="container">
+
+    <div class="otp-box">
+        <h2>OTP Verification Required</h2>
+        <p>
+            We detected a transaction from a new location.<br>
+            Please enter the OTP sent to your registered email to proceed.
+        </p>
+
+        <form method="POST" action="/verify-txn-otp">
+            <input type="text" name="otp" placeholder="Enter OTP" required>
+            <button type="submit">Verify OTP</button>
+        </form>
+    </div>
+
+    <div class="transaction-box">
+        <h3>Transaction Details</h3>
+        <div class="detail-row">
+            <span>Amount:</span>
+            <span>{{ amount }}</span>
+        </div>
+        <div class="detail-row">
+            <span>Location:</span>
+            <span>{{ location }}</span>
+        </div>
+        <div class="detail-row">
+            <span>Date/Time:</span>
+            <span>{{ txn_datetime }}</span>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
